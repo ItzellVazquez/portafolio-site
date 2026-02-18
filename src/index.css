@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
 body{
-  background-color: #83A6CE;
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #0B1B32 0%,   /* azul oscuro arriba */
+    #26415E 25%,  /* azul medio */
+    #83A6CE 50%,  /* azul claro */
+    #E5C9D7 75%,  /* rosa abajo */
+    #C48CB3 100%  /* rosa abajo */
+  );
+
+
 }
 
 :root {

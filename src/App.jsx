@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='text-white grid lg:grid-cols-6 content-center min-h-screen auto-rows-[150px] gap-4 p-10'>
         <div className='bg-[#0B1B32] rounded-2xl p-6 col-span-1 row-span-2 hover:bg-[#26415E] hover:scale-[1.02] hover:shadow-lg transition duration-300 ease-in-out'>
-          foto
+          <img src=''></img>
         </div>
         <div className='bg-[#0B1B32] rounded-2xl p-6 lg:col-span-3 row-span-2 hover:bg-[#26415E] hover:scale-[1.02] hover:shadow-lg transition duration-300 ease-in-out'>
           Itzell Vazquez
