@@ -2,31 +2,6 @@
 
 body{
   min-height: 100vh;
-  color: white;
-  background: linear-gradient(
-    to bottom,
-    #0B1B32 0%,  
-    #26415E 25%, 
-    #83A6CE 50%,  
-    #E5C9D7 75%, 
-    #C48CB3 100%  
-  );
-
-
+  color: #FFFFFF;
+  background-color: #131313;
 }
-
-/*
-COLORS
-   #0B1B32;
-   #0D1E4C;
-  
-   #26415E;
-   #83A6CE;
-  
-   #C48CB3;
-   #E5C9D7;
-  
-   #F5F5F5;
-   #0B1B32;
-  */
-
