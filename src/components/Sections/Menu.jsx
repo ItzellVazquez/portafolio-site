@@ -2,16 +2,17 @@ import OptionMenu from "../OptionMenu"
 const Menu = () => {
 
     const menuItems = [
-    { id: "hero", label: "Hero" },
+    // { id: "hero", label: "Hero" },
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "vtexProjects", label: "Vtex Projects" },
-    { id: "reactProjects", label: "React Projects" },
+    { id: "projects", label: "Projects" },
+    // { id: "vtexProjects", label: "Vtex Projects" },
+    // { id: "reactProjects", label: "React Projects" },
     { id: "contact", label: "Contact" }
     ]
 
     return (
-        <div className='flex flex-row'>
+        <div className='flex flex-row justify-center'>
             {
                 menuItems.map(item => (
                     <OptionMenu 

@@ -4,8 +4,9 @@ import Menu from './components/Sections/Menu'
 import Hero from './components/Sections/Hero'
 import About from './components/Sections/About'
 import Skills from './components/Sections/Skills'
-import ReactProjects from './components/Sections/ReactProjects'
-import VtexProjects from './components/Sections/VtexProjects'
+// import ReactProjects from './components/Sections/ReactProjects'
+// import VtexProjects from './components/Sections/VtexProjects'
+import Projects from './components/Sections/Projects'
 import Contact from './components/Sections/Contact'
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
         <Hero></Hero>
         <About></About>
         <Skills></Skills>
-        <ReactProjects></ReactProjects>
-        <VtexProjects></VtexProjects>
+        <Projects></Projects>
+        {/* <ReactProjects></ReactProjects>
+        <VtexProjects></VtexProjects> */}
         <Contact></Contact>
       </div>
     </>

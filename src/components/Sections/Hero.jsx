@@ -9,7 +9,7 @@ const Hero = () => {
                     <p className="text-3xl">VTEX IO & E-commerce</p>
                 </div>
                 <div className="flex flex-col justify-center items-end">
-                    <img className="h-full max-h-100" src="/src/assets/itzell.jpeg" alt="Itzell Vazquez"></img>
+                    <img className="h-full max-h-120" src="/src/assets/itzell.jpeg" alt="Itzell Vazquez"></img>
                 </div>
             </div>
         </CardTransparent>
