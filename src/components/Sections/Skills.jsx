@@ -6,6 +6,7 @@ const Skills = () => {
 
     return (
         <CardBlack>
+            <p>Skills</p>
             <div id="skills" className="flex flex-row">
                 <Carousel>
                     <img className="mx-auto" src="/src/assets/html.png" alt="html"></img>           
