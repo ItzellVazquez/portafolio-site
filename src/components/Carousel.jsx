@@ -17,7 +17,7 @@ const settings = {
 const Carousel = ({children}) => {
     const slides = React.Children.toArray(children);
   return (
-      <div className="w-[100vw] max-w-5xl mx-auto">
+      <div className="lg:w-[100vw] max-w-5xl mx-auto">
         <Slider {...settings}>
             {slides.map((child, index) => (
                 <div key={index}>

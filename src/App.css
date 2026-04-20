@@ -17,13 +17,3 @@
     transparent
   );
 }
-.about-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-.skills-container {
-  /* background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.25), transparent 40%),
-  linear-gradient(135deg, #020617, #0f172a); */
-}
