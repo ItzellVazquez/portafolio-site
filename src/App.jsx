@@ -1,11 +1,10 @@
-// import { FaFacebookF, FaInstagram, FaLinkedinIn,FaWhatsapp, FaEnvelope, FaPhone } from "react-icons/fa6";
 import './App.css'
 import Menu from './components/Sections/Menu'
 import Hero from './components/Sections/Hero'
 import About from './components/Sections/About'
 import Skills from './components/Sections/Skills'
-// import ReactProjects from './components/Sections/ReactProjects'
-// import VtexProjects from './components/Sections/VtexProjects'
+
+import Separator from './components/Separator'
 import Projects from './components/Sections/Projects'
 import Contact from './components/Sections/Contact'
 import Carousel from './components/Carousel'
@@ -14,16 +13,19 @@ function App() {
 
   return (
     <>
-      <div className='flex grid justify-center p-8 scroll-smooth'>
-        <Menu></Menu>
+      <div>
+        {/* <Menu></Menu> */}
         <Hero></Hero>
+        <Separator></Separator>
         <About></About>
+        <Separator></Separator>
         <Skills></Skills>
-        <Projects></Projects>
-        <Carousel></Carousel>
+        <Separator></Separator>
+        <Contact></Contact> 
+        {/* <Projects></Projects> */}
+        {/* 
         {/* <ReactProjects></ReactProjects>
         <VtexProjects></VtexProjects> */}
-        <Contact></Contact>
       </div>
     </>
   )

@@ -1,32 +1,31 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn,FaWhatsapp, FaEnvelope, FaPhone } from "react-icons/fa6";
-import CardBlack from "../CardBlack"
+import { FaFacebookF, FaInstagram, FaLinkedinIn,FaWhatsapp, FaEnvelope, FaPhone, FaGithub } from "react-icons/fa6";
 const Contact = () => {
     return (
-       <CardBlack>
-            <div id="contact" className=" grid grid-flow-row">
-                <p>Contact</p>
-                <div className="flex flex-col justify-content">
+            <div id="contact" className="contact-container m-auto mt-[50px] mb-[50px]">
+                <div className="flex flex-row justify-around container m-auto h-16 items-center">
                     <a href="https://www.facebook.com/itzellguadalupe.vazquezgutierrez?locale=es_LA" target="_blank" rel="noopener noreferrer">
-                        <FaFacebookF />
+                        <FaFacebookF size={30}/>
                     </a>
                     <a href="https://www.instagram.com/itzell_vzq/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram />
+                        <FaInstagram size={30} />
                     </a>
                     <a href="https://www.linkedin.com/in/itzell-guadalupe-vazquez-gutierrez" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedinIn />
+                        <FaLinkedinIn size={30} />
                     </a>
                     <a href="https://wa.me/3122242432" target="_blank" rel="noopener noreferrer">
-                        <FaWhatsapp />
+                        <FaWhatsapp size={30} />
                     </a>
                     <a href="mailto:itzell.vazquez.gutierrez@gmail.com">
-                        <FaEnvelope />
+                        <FaEnvelope size={30} />
                     </a>
                     <a href="tel:+523122242432">
-                        <FaPhone />
+                        <FaPhone size={30} />
+                    </a>
+                    <a href="https://github.com/ItzellVazquez" target="_blank" rel="noopener noreferrer">
+                        <FaGithub size={30} />
                     </a>
                 </div>
             </div>
-       </CardBlack>
     )
 }
 export default Contact

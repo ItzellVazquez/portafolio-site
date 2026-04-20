@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import CardTransparent from './CardTransparent';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -17,7 +16,6 @@ const settings = {
   };
 const Carousel = ({children}) => {
     const slides = React.Children.toArray(children);
-    console.log("aqui los children del carousel", children)
   return (
       <div className="w-[100vw] max-w-5xl mx-auto">
         <Slider {...settings}>

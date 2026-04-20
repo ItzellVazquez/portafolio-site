@@ -2,6 +2,6 @@
 
 body{
   min-height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
   color: #FFFFFF;
-  background-color: #131313;
 }
