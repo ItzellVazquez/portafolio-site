@@ -1,4 +1,6 @@
 
+import profileImage from "../../assets/itz.png"
+
 const Hero = () => {
     return (
         
@@ -12,7 +14,7 @@ const Hero = () => {
                 <div className="flex justify-center items-center">
                 <img 
                     // className="max-h-[500px] " 
-                    src="/src/assets/itz.png" 
+                    src={profileImage} 
                     alt="Itzell Vazquez" 
                     />
                 </div>
